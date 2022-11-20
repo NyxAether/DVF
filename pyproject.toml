@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:63758c5630b77c4f74bdb09c740a867d5d7e2b450801a5a4209d31c7be702e56
-size 421
+[tool.poetry]
+name = "dvf"
+version = "0.1.0"
+description = ""
+authors = ["NyxAether <contact.nyxhemera@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.1"
+numpy = "^1.23.5"
+tqdm = "^4.64.1"
+joblib = "^1.2.0"
+pyarrow = "^10.0.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.17.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
